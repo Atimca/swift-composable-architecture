@@ -12,6 +12,10 @@ let package = Package(
   ],
   products: [
     .library(
+      name: "ComposableArchitectureStatic",
+      targets: ["ComposableArchitecture"]
+    ),
+    .library(
       name: "ComposableArchitecture",
       type: .dynamic,
       targets: ["ComposableArchitecture"]
